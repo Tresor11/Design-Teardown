@@ -1,0 +1,81 @@
+body{
+  margin: 0;
+}
+
+header{
+  min-width:inherit;
+  min-height: 100px;
+  background-color:rgb(134, 134, 134);
+}
+
+main{
+  width: inherit;
+}
+
+.first{
+  width: inherit;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first div{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 200px 0px 200px 0;
+  border: 1px solid;
+  background-color: rgb(58, 58, 58);
+}
+
+.second{
+  display: flex;
+  width: inherit;
+}
+
+.second div{
+  width: 33.333333%;
+  min-height: 400px;
+  border: 1px solid;
+}
+
+.trois{
+  display: flex;
+  width: inherit;
+}
+
+.trois div{
+  min-height: 400px;
+  border: 1px solid;
+}
+
+.quatre{
+  width: inherit;
+  min-height: 500px;
+}
+
+.cinq{
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+.cinq .child1{
+  min-height: 400px;
+
+}
+
+.cinq .child2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child2 div{
+  width: 50%;
+  height: 200px;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+.six{
+  width: inherit;
+  min-height: 400px;
+}
