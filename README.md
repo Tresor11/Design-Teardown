@@ -8,10 +8,10 @@
  
                          This project consists of building a heatmap of the Smashing magazine website
    <br />
-   <a href="https://github.com/Tresor11/Design-Teardown/tree/features"><strong>Explore the docs »</strong></a>
+   <a href="https://github.com/Tresor11/Design-Teardown"><strong>Explore the docs »</strong></a>
    <br />
    <br />
-   <a href="https://rawcdn.githack.com/Tresor11/Design-Teardown/37d8c32b88b4e8419b76c8bb88c3a5e6a683a748/index.html"> :wink: View Demo </a> 
+   <a href="https://rawcdn.githack.com/Tresor11/Design-Teardown/f52806e4440808af09a999af4e72cedee1679e56/index.html"> :wink: View Demo </a> 
  </p>
 </p>
 <h2 align="center">Tools and Technologies Used<h2>
