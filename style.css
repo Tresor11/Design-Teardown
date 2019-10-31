@@ -3,7 +3,8 @@ body {
   color: rgb(0, 0, 0);
   background-color: rgb(212, 212, 212)
 }
-p{
+
+p {
   font-family: "noto serif jp";
   line-break: auto;
   line-height: 30px;
@@ -11,9 +12,14 @@ p{
   text-align: center;
 }
 
-h2{
+h2 {
   text-align: center;
 }
+
+h5 {
+  display: none;
+}
+
 header {
   min-width: inherit;
   min-height: 100px;
@@ -58,13 +64,13 @@ main {
   background-color: rgb(141, 141, 141)
 }
 
-.second{
+.second {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   min-height: 450px;
 }
 
-.trois{
+.trois {
   display: grid;
   width: 90%;
   margin: 0 auto;
@@ -73,43 +79,43 @@ main {
   grid-gap: 20px;
 }
 
-.three1{
+.three1 {
   grid-area: 1/1/4/3;
   background-color: rgb(161, 161, 161);
   border-radius: 20px;
 }
 
-.three2, .trois2{
+.three2, .trois2 {
   grid-area: 1/3/6/6;
   border-radius: 20px;
   background-color: rgb(141, 141, 141);
 }
 
-.cinq{
+.cinq {
   min-height: 450px;
 }
 
-.child1{
+.child1 {
   display: grid;
-  grid-template-rows: repeat(3,1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
-.six{
+.six {
   min-height: 150px;
 }
 
-.seven{
+.seven {
   min-height: 450px;
   display: grid;
-  grid-template: repeat(3 ,1fr)/ repeat(3, 1fr);
+  grid-template: repeat(3, 1fr)/ repeat(3, 1fr);
 }
 
-.eight{
+.eight {
   min-height: 350px;
   background-color: rgb(141, 141, 141);
 }
 
-.six{
+.six {
   min-height: 450px;
   background-color: rgb(141, 141, 141);
 }
