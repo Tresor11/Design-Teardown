@@ -5,7 +5,7 @@ body{
 header{
   min-width:inherit;
   min-height: 100px;
-  background-color:rgb(134, 134, 134);
+  background-color:rgb(108, 102, 102)
 }
 
 main{
@@ -22,40 +22,83 @@ main{
   width: 50%;
   box-sizing: border-box;
   padding: 200px 0px 200px 0;
-  border: 1px solid;
-  background-color: rgb(58, 58, 58);
 }
 
+.fone{
+  background-color: rgb(102, 101, 101)
+}
+
+.ftwo{
+  background-color: rgb(100, 95, 95);
+}
+
+.fthree{
+  background-color: rgb(99, 93, 93)
+}
+
+.ffour{
+  background-color: rgb(99, 96, 96)
+}
 .second{
   display: flex;
   width: inherit;
+  background-color: rgb(192, 185, 185);
 }
 
 .second div{
   width: 33.333333%;
   min-height: 400px;
-  border: 1px solid;
 }
 
 .trois{
   display: flex;
   width: inherit;
+  width: 100%;
 }
 
+.three1{
+  width: 40%;
+  background-color: rgb(53, 49, 49)
+}
+
+.three2{
+  width: 60%;
+  background-color: rgb(100, 95, 95);
+}
+
+.extra{
+  background-color: rgb(192, 185, 185);
+  min-height: 40px;
+}
 .trois div{
   min-height: 400px;
   border: 1px solid;
 }
+.trois1{
+  width: 40%;
+  background-color: rgb(192, 185, 185);
+}
 
+.trois2{
+  width: 60%;
+  background-color: rgb(100, 95, 95);
+}
+
+.extra2{
+  background-color: rgb(192, 185, 185);
+  min-height: 40px;
+}
 .quatre{
   width: inherit;
   min-height: 500px;
+  background-color: rgb(41, 40, 40);
 }
 
 .cinq{
   width: inherit;
   display: flex;
   flex-direction: column;
+  background-color: rgb(192, 185, 185);
 }
 .cinq .child1{
   min-height: 400px;
@@ -78,4 +121,6 @@ main{
 .six{
   width: inherit;
   min-height: 400px;
+  background-color: rgb(100, 95, 95);
 }
+
